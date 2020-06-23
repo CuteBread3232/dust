@@ -1,0 +1,26 @@
+{
+	"type": "GenericCrafter"
+	"name": "graphite-maker-h"
+	"description": "graphite-maker-h"
+	"health": 200,
+	"itemCapacity": 1000,
+	"size": 2,
+	"outputItem": {"item": "graphite", "amount": 100},
+	"craftTime": 1,
+	"craftEffect": "producesmoke",
+	"updateEffect": "smeltsmoke",
+	"updateEffectChance": 0.05,
+	"consumes": {
+		"power": 0.1,
+		"items": {
+			"items": [
+				{ "item": "dust", "amount": 1 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "multi-press"
+}
