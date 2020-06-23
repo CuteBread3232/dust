@@ -3,7 +3,7 @@
 	"name": "bio-drill",
 	"description": "bio-drill",
 	"tier": 4,
-	"drillTime": 300,
+	"drillTime": 200,
 	"liquidBoostIntensity": 1.5,
 	"rotateSpeed": 4,
 	"size": 2,
