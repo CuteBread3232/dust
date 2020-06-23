@@ -10,9 +10,7 @@
 	"drawMineItem": true,
 	"heatColor": "cbd97f",
 	"consumes": {
-		"liquid": { "liquid": "water", "amount": 0.1 },
-		"booster": true,
-		"optional": true
+		"liquid": { "liquid": "water", "amount": 0.1, "booster": true }
 	},
 	"requirements": [
 		{ "item": "metaglass", "amount": 20 },
