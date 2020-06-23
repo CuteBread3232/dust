@@ -10,10 +10,10 @@
 	"drawMineItem": true,
 	"heatColor": "cbd97f",
 	"consumes": {
+		"booster": true,
 		"liquid": { 
 			"liquid": "water", 
 			"amount": 0.1, 
-			"booster": true
 		}
 	},
 	"requirements": [
