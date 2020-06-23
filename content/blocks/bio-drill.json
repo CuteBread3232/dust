@@ -22,5 +22,5 @@
 		{ "item": "plastanium", "amount": 20 }
 	],
 	"category": "production",
-	"research": "blastdrill"
+	"research": "blast-drill"
 }
