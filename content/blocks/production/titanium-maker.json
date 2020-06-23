@@ -1,0 +1,26 @@
+{
+	"type": "GenericCrafter"
+	"name": "titanium-maker"
+	"description": "titanium-maker"
+	"health": 200,
+	"itemCapacity": 20,
+	"size": 2,
+	"outputItem": {"item": "titanium", "amount": 1},
+	"craftTime": 1,
+	"craftEffect": "producesmoke",
+	"updateEffect": "smeltsmoke",
+	"updateEffectChance": 0.05,
+	"consumes": {
+		"power": 0.1,
+		"items": {
+			"items": [
+				{ "item": "dust", "amount": 1 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "multi-press"
+}

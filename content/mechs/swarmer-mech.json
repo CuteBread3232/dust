@@ -1,0 +1,37 @@
+{
+	"type": "Mech",
+	"name": "swarmer-mech",
+	"health": 1200,
+	"descruption": "swarmer-mech",
+	"flying": true,
+	"speed": 0,
+	"drillPower": 100,
+	"buildPower": 100,
+	"itemCapacity": 100,
+	"drawLight": false,
+	"engineSize": 0,
+	"weapon": {
+		"name": "swarmer-head",
+		"reload": 30f,
+		"shots": 2,
+		"spacing": 10,
+		"inaccuracy": 10f,
+		"range": 185f,
+		"shootSound": "missile",
+		"bullet": {
+			"type": "MissileBulletType",
+			"bulletSprite": "missile",
+			"damage": 10,
+			"speed": 2.7f
+			"bulletWidth": 8f,
+			"bulletHeight": 8f,
+			"bulletShrink": 0f,
+			"splashDamageRadius": 30f,
+			"splashDamage": 30f,
+			"ammoMultiplier": 4f,
+			"lifetime": 150f,
+			"hitEffect": "blastExplosion",
+			"despawnEffect": "blastExplosion",
+		}
+	}
+}

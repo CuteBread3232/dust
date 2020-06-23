@@ -1,0 +1,16 @@
+{
+    "type": "MechPad",
+    "mech": "swarmer-mech",
+    "name": "swarmer-mech-pad",
+    "description": "swarmer-mech-pad",
+    "size": 2,
+    "produceTime": 1,
+    "requirements": [
+        { "item": "plastanium", "amount": 100 }
+    ],
+    "consumes": {
+         "power": 1,
+    },
+    "category": "upgrade",
+    "research": "swarmer"
+}

@@ -1,0 +1,23 @@
+{
+	"type": "ForceProjector",
+	"name": "force wall m",
+	"description": "force wall m",
+	"size": 2,
+	"health": 1000,
+	"phaseRadiusBoost": 40,
+	"breakage": 99999999,
+	"radius": 80,
+	"consumes": {
+		"power": 0.1,
+		"items": {
+			"items": [
+				{ "item": "phase-fabric", "amount": 1 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "surge-alloy", "amount": 100 }
+	],
+	"category": "defense",
+	"research": "conveyor"
+}
