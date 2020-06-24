@@ -26,18 +26,18 @@
             "bulletWidth": 6f,
             "bulletHeight": 8f,
             "hitEffect": "flakExplosion",
-            "splashDamage": 100,
-            "splashDamageRadius": 100,
+            "splashDamage": 99999,
+            "splashDamageRadius": 200,
             "fragBullet": "glassFrag",
-            "fragBullets": 10
+            "fragBullets": 1,
 			"fragBullet": {
 				"type": "FlakBulletType",
-				"speed": 10,
-				"lifetime": 10,
+				"speed": 1,
+				"lifetime": 1,
 				"damage": 99999999,
 				"splashDamage": 99999999,
 				"lightining": 100,
-				"lightningLength": 10,
+				"lightningLength": 15,
 				"shootEffect": "shootBig"
 			}
 		}

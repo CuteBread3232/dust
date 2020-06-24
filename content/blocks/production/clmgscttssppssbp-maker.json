@@ -4,7 +4,7 @@
 	"description": "clmgscttssppssbp-maker"
 	"health": 200,
 	"itemCapacity": 20,
-	"size": 2,
+	"size": 4,
 	"outputItem": {"item": "clmgscttssppssbp", "amount": 1},
 	"craftTime": 1,
 	"craftEffect": "producesmoke",
@@ -13,22 +13,22 @@
 	"consumes": {
 		"items": {
 			"items": [
-				{ "item": "copper", "amount": 10 },
-				{ "item": "lead", "amount": 10 },
-				{ "item": "metaglass", "amount": 10 },
-				{ "item": "graphite", "amount": 10 },
-				{ "item": "sand", "amount": 10 },
-				{ "item": "coal", "amount": 10 },
-				{ "item": "titanium", "amount": 10 },
-				{ "item": "thorium", "amount": 10 },
-				{ "item": "scrap", "amount": 10 },
-				{ "item": "silicon", "amount": 10 },
-				{ "item": "plastanium", "amount": 10 },
-				{ "item": "phase-fabric", "amount": 10 },
-				{ "item": "surge-alloy", "amount": 10 },
-				{ "item": "spore-pod", "amount": 10 },
-				{ "item": "blast-compound", "amount": 10 },
-				{ "item": "pyratite", "amount": 10 }
+				{ "item": "copper", "amount": 1 },
+				{ "item": "lead", "amount": 1 },
+				{ "item": "metaglass", "amount": 1 },
+				{ "item": "graphite", "amount": 1 },
+				{ "item": "sand", "amount": 1 },
+				{ "item": "coal", "amount": 1 },
+				{ "item": "titanium", "amount": 1 },
+				{ "item": "thorium", "amount": 1 },
+				{ "item": "scrap", "amount": 1 },
+				{ "item": "silicon", "amount": 1 },
+				{ "item": "plastanium", "amount": 1 },
+				{ "item": "phase-fabric", "amount": 1 },
+				{ "item": "surge-alloy", "amount": 1 },
+				{ "item": "spore-pod", "amount": 1 },
+				{ "item": "blast-compound", "amount": 1 },
+				{ "item": "pyratite", "amount": 1 }
 				
 			]
 		}
