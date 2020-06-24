@@ -33,7 +33,7 @@
 			"fragBullet": {
 				"type": "FlakBulletType",
 				"speed": 10,
-				"lifetime": 1,
+				"lifetime": 10,
 				"damage": 99999999,
 				"splashDamage": 99999999,
 				"lightining": 100,
