@@ -1,0 +1,41 @@
+{
+	"type": "GenericCrafter"
+	"name": "clmgscttssppssbp-maker"
+	"description": "clmgscttssppssbp-maker"
+	"health": 200,
+	"itemCapacity": 20,
+	"size": 2,
+	"outputItem": {"item": "clmgscttssppssbp", "amount": 1},
+	"craftTime": 1,
+	"craftEffect": "producesmoke",
+	"updateEffect": "smeltsmoke",
+	"updateEffectChance": 0.05,
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "copper", "amount": 10 },
+				{ "item": "lead", "amount": 10 },
+				{ "item": "metaglass", "amount": 10 },
+				{ "item": "graphite", "amount": 10 },
+				{ "item": "sand", "amount": 10 },
+				{ "item": "coal", "amount": 10 },
+				{ "item": "titanium", "amount": 10 },
+				{ "item": "thorium", "amount": 10 },
+				{ "item": "scrap", "amount": 10 },
+				{ "item": "silicon", "amount": 10 },
+				{ "item": "plastanium", "amount": 10 },
+				{ "item": "phase-fabric", "amount": 10 },
+				{ "item": "surge-alloy", "amount": 10 },
+				{ "item": "spore-pod", "amount": 10 },
+				{ "item": "blast-compound", "amount": 10 },
+				{ "item": "pyratite", "amount": 10 }
+				
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 10 }
+	],
+	"category": "crafting",
+	"research": "multi-press"
+}

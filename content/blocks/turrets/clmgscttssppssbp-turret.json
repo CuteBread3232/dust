@@ -1,0 +1,48 @@
+{
+	"type": "ItemTurret",
+	"name": "clmgscttssppssbp-turret",
+	"description": "clmgscttssppssbp-turret",
+	"xRand": 4f,
+	"reload": 1000,
+	"range": 80000,
+	"size": 3,
+	"recoil": 3f,
+	"rotatespeed": 10f,
+	"inaccuracy": 0,
+	"shootCone": 1f,
+	"shootSound": "shootSnap",
+	"health": 1305,
+	"ammo": {
+		"clmgscttssppssbp": {
+			"type": "FlakBulletType",
+			"speed": 20,
+			"damage": 100,
+            "lifetime": 10000,
+            "ammoMultiplier": 1,
+            "shootEffect": "shootSmall",
+            "reloadMultiplier": 1,
+            "frontColor": "#96a3ff",
+            "backColor": "#c1ffce",
+            "bulletWidth": 6f,
+            "bulletHeight": 8f,
+            "hitEffect": "flakExplosion",
+            "splashDamage": 100,
+            "splashDamageRadius": 100,
+            "fragBullet": "glassFrag",
+            "fragBullets": 6
+			"fragBullet": {
+				"splashDamage": 99999999,
+				"lightining": 200,
+				"lightningLength": 100,
+				"shootEffect": "shootBig"
+			}
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 400 },
+		{ "item": "titanium", "amount": 250 },
+		{ "item": "plastanium", "amount": 160 }
+	],
+	"category": "turret",
+	"research": "cyclone"
+}
