@@ -29,9 +29,11 @@
             "splashDamage": 100,
             "splashDamageRadius": 100,
             "fragBullet": "glassFrag",
-            "fragBullets": 6
+            "fragBullets": 10
 			"fragBullet": {
 				"type": "FlakBulletType",
+				"speed": 10,
+				"lifetime": 1,
 				"damage": 99999999,
 				"splashDamage": 99999999,
 				"lightining": 100,
