@@ -31,9 +31,11 @@
             "fragBullet": "glassFrag",
             "fragBullets": 6
 			"fragBullet": {
+				"type": "FlakBulletType",
+				"damage": 99999999,
 				"splashDamage": 99999999,
-				"lightining": 200,
-				"lightningLength": 100,
+				"lightining": 100,
+				"lightningLength": 10,
 				"shootEffect": "shootBig"
 			}
 		}
