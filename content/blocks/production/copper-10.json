@@ -1,0 +1,22 @@
+{
+	"type": "GenericCrafter"
+	"name": "[#d99d73]copper-maker-10"
+	"description": "[#d99d73]copper-maker-10"
+	"health": 100,
+	"itemCapacity": 1000,
+	"size": 2,
+	"outputItem": {"item": "", "amount": 10},
+	"craftTime": 1,
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "dust", "amount": 1 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 100 }
+	],
+	"category": "crafting",
+	"research": "copper-1"
+}
