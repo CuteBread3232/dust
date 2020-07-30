@@ -1,0 +1,78 @@
+{
+	"type": "ItemTurret",
+	"name": "cyclone-v2",
+	"description": "cyclone-v2",
+	"xRand": 4f,
+	"reload": 6f,
+	"range": 80000,
+	"size": 3,
+	"recoil": 3f,
+	"rotatespeed": 10f,
+	"inaccuracy": 10f,
+	"shootCone": 30f,
+	"shootSound": "shootSnap",
+	"health": 1305,
+	"ammo": {
+		"metaglass": {
+			"type": "FlakBulletType",
+			"speed": 4f,
+			"damage": 3,
+            "lifetime": 10000,
+            "ammoMultiplier": 5f,
+            "shootEffect": "shootSmall",
+            "reloadMultiplier": 0.8f,
+            "frontColor": "#ebeef5",
+            "backColor": "#ebeef5",
+            "bulletWidth": 6f,
+            "bulletHeight": 8f,
+            "hitEffect": "flakExplosion",
+            "splashDamage": 30f,
+            "splashDamageRadius": 26f,
+            "fragBullet": "glassFrag",
+            "fragBullets": 6
+		},
+		"blast-compound": {
+			"type": "FlakBulletType",
+			"speed": 4f,
+			"lifetime": 10000,
+			"damage": 5,
+            "shootEffect": "shootBig",
+            "ammoMultiplier": 4f
+            "frontColor": "#ff795e",
+            "backColor": "#ff795e",
+		},
+		"plastanium": {
+			"type": "FlakBulletType",
+			"speed": 4f,
+			"lifetime": 10000,
+			"damage": 6,
+            "splashDamageRadius": 50f,
+            "splashDamage": 25f,
+            "fragBullet": "artilleryPlasticFrag",
+            "fragBullets": 6,
+            "hitEffect": "plasticExplosion",
+            "frontColor": "#cbd97f",
+            "backColor": "#cbd97f",
+            "shootEffect": "shootBig"
+		},
+		"surge-alloy": {
+			"type": "FlakBulletType",
+			"speed": 4f,
+			"lifetime": 10000,
+			"damage": 7,
+            "splashDamage": 33f,
+            "lightining": 2,
+            "lightningLength": 12,
+            "shootEffect": "shootBig",
+			"frontColor": "#f3e979",
+            "backColor": "#f3e979",
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 400 },
+		{ "item": "titanium", "amount": 250 },
+		{ "item": "plastanium", "amount": 160 }
+	],
+	"category": "turret",
+	"research": "cyclone"
+}

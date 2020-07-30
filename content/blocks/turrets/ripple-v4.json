@@ -1,0 +1,111 @@
+{
+	"name": "ripple-v4",
+	"description": "ripple-v4",
+	"type": "ArtilleryTurret",
+	"size": 3,
+	"shots": 4,
+	"inaccuracy": 3f,
+	"reload": 60f,
+	"ammoEjectBack": 5f,
+	"ammoUseEffect": "shellEjectBig",
+	"cooldown": 0.03f,
+	"velocityInaccuracy": 0.2f,
+	"restitution": 0.02f,
+	"recoil": 6f,
+	"shootShake": 2f,
+	"range": 80000,
+	"health": 1170,
+	"shootSound": "artillery",
+	"ammo": {
+		"graphite": {
+			"type": "ArtilleryBulletType",
+			"speed": 3f,
+			"damage": 0,
+			"bulletSprites": "shell",
+            "hitEffect": "flakExplosion",
+            "knockback": 0.8f,
+            "lifetime": 50f,
+            "bulletWidth": 11f,
+			"bulletHeight": 11f,
+            "collidesTiles": false,
+            "splashDamageRadius": 25f,
+            "splashDamage": 33f
+		},
+		"silicon": {
+		    "type": "ArtilleryBulletType",
+			"speed": 3f,
+			"damage": 0,
+			"bulletSprites": "shell",
+            "hitEffect": "flakExplosion"
+            "knockback": 0.8f,
+            "lifetime": 10000,
+            "bulletWidth": 11f,
+			"bulletHeight": 11f,
+            "collidesTiles": false,
+            "splashDamageRadius": 25f,
+            "splashDamage": 33f,
+            "homingPower": 2f,
+            "homingRange": 50f
+		},
+		"pyratite": {
+			"type": "ArtilleryBulletType",
+			"speed": 3f,
+			"damage": 0,
+			"bulletSprites": "shell",
+			"hitEffect": "blastExplosion"
+            "knockback": 0.8f,
+            "lifetime": 10000,
+            "bulletWidth": 13f,
+			"bulletHeight": 13f,
+            "collidesTiles": false,
+            "splashDamageRadius": 25f,
+            "splashDamage": 30f,
+            "status": "burning",
+            "frontColor": "#ffaa5f",
+            "backColor": "#ffaa5f",
+            "trailEffect": "incendTrail"
+		},
+		"blast-compound": {
+			"type": "ArtilleryBulletType",
+			"speed": 2f,
+			"damage": 0,
+			"bulletSprites": "shell",
+			"hitEffect": "blastExplosion"
+            "knockback": 0.8f,
+            "lifetime": 10000,
+            "bulletWidth": 14f,
+			"bulletHeight": 14f,
+            "collidesTiles": false,
+			"ammoMultiplier": 4f,
+            "splashDamageRadius": 45f,
+            "splashDamage": 50f,
+            "frontColor": "#ff795e",
+            "backColor": "#ff795e"
+		},
+		"plastanium": {
+			"type": "ArtilleryBulletType",
+			"speed": 3.4f,
+			"damage": 0,
+			"bulletSprites": "shell",
+			"hitEffect": "plasticExplosion"
+            "knockback": 1f,
+            "lifetime": 10000,
+            "bulletWidth": 13f,
+			"bulletHeight": 13f,
+            "collidesTiles": false,
+            "splashDamageRadius": 35f,
+            "splashDamage": 45f,
+            "fragBullet": "artilleryPlasticFrag",
+            "fragBullets": 10,
+            "backColor": "#cbd97f",
+            "frontColor": "#cbd97f"
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 300 },
+		{ "item": "graphite", "amount": 270 },
+		{ "item": "titanium", "amount": 120 }
+	],
+	"category": "turret",
+	"research": "ripple"
+}
