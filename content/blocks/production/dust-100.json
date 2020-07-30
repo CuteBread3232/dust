@@ -1,0 +1,22 @@
+{
+	"type": "GenericCrafter"
+	"name": "[#8080FF]dust-maker-100"
+	"description": "[#8080FF]dust-maker-100"
+	"health": 100,
+	"itemCapacity": 1000,
+	"size": 2,
+	"outputItem": {"item": "dust", "amount": 100},
+	"craftTime": 1,
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "scrap", "amount": 1 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 100 }
+	],
+	"category": "crafting",
+	"research": "dust-10"
+}

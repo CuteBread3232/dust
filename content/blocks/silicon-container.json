@@ -5,10 +5,10 @@
 	"itemCapacity": 100000,
 	"hasItems": true,
 	"breakable": true,
-	"health": 1,
+	"health": 100,
 	"size": 2,
 	"requirements": [
-		{ "item": "silicon", "amount": 1 }
+		{ "item": "silicon", "amount": 100 }
 	],
 	"category": "effect",
 	"research": "vault"
