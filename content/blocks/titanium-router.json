@@ -2,7 +2,7 @@
 	"type": "Router",
 	"name": "titanium-router",
 	"description": "titanium-router",
-	"size": 2,
+	"size": 1,
 	"speed": 52,
 	"requirements": [
 		{ "item": "copper", "amount": 4 }
