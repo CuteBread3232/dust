@@ -1,0 +1,14 @@
+{
+	"type": "Router",
+	"name": "titanium-router",
+	"description": "titanium-router",
+	"size" 2,
+	"speed": 52,
+	"requirements": [
+		{ "item": "copper", "amount": 4 }
+		{ "item": "lead", "amount": 4 }
+		{ "item": "titanium", "amount": 4 }
+	],
+	"research": "router",
+	"category": "distribution"
+}
